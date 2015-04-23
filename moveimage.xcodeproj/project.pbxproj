@@ -14,6 +14,7 @@
 		B857BAF51A92266200D6E107 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B857BAF41A92266200D6E107 /* Images.xcassets */; };
 		B857BAF81A92266200D6E107 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B857BAF61A92266200D6E107 /* LaunchScreen.xib */; };
 		B857BB041A92266300D6E107 /* moveimageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B857BB031A92266300D6E107 /* moveimageTests.m */; };
+		B857BB0E1A92269600D6E107 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = B857BB0D1A92269600D6E107 /* 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B857BAFD1A92266300D6E107 /* moveimageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moveimageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B857BB021A92266300D6E107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B857BB031A92266300D6E107 /* moveimageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moveimageTests.m; sourceTree = "<group>"; };
+		B857BB0D1A92269600D6E107 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		B857BADB1A92266000D6E107 = {
 			isa = PBXGroup;
 			children = (
+				B857BB0D1A92269600D6E107 /* 4.png */,
 				B857BAE61A92266100D6E107 /* moveimage */,
 				B857BB001A92266300D6E107 /* moveimageTests */,
 				B857BAE51A92266100D6E107 /* Products */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B857BB0E1A92269600D6E107 /* 4.png in Resources */,
 				B857BAF31A92266100D6E107 /* Main.storyboard in Resources */,
 				B857BAF81A92266200D6E107 /* LaunchScreen.xib in Resources */,
 				B857BAF51A92266200D6E107 /* Images.xcassets in Resources */,
@@ -412,6 +416,7 @@
 				B857BB091A92266300D6E107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B857BB0A1A92266300D6E107 /* Build configuration list for PBXNativeTarget "moveimageTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				B857BB0C1A92266300D6E107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
